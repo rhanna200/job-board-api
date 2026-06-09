@@ -1,0 +1,19 @@
+{
+    "name": "@workspace/api-server",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+          "dev": "node ./src/app.ts",
+          "build": "echo 'Build successful'",
+          "start": "node ./dist/app.js"
+    },
+    "dependencies": {
+          "@anthropic-ai/sdk": "^0.24.3",
+          "cors": "^2.8.6",
+          "express": "^4.21.0"
+    },
+    "devDependencies": {
+          "@types/express": "^4.17.17"
+    }
+}
